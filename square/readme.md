@@ -39,17 +39,3 @@ square(0)  # should return 0
 square(2.5)  # should return 6.25
 square(-1.5)  # should return 2.25
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `square` function:
-
-```python
-def square(num):
-    num * 2
-
-# Test the function
-print(square(5))  # Should return 25, but will return None due to the bug
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

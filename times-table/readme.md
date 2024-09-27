@@ -73,20 +73,3 @@ print_times_table(3)
 11 x 3 = 33
 12 x 3 = 36
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `print_times_table` function:
-
-```python
-def print_times_table(n):
-    i = 0
-    while i <= n:
-        print(f"{i} x {n} = {i * 5}")
-        i += 1
-
-# Test the function
-print_times_table(5)
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

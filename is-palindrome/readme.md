@@ -35,25 +35,3 @@ is_palindrome("A man a plan a canal Panama")  # should return True
 is_palindrome("race a car")  # should return False
 is_palindrome("")  # should return True
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `is_palindrome` function:
-
-```python
-def is_palindrome(s):
-    left = 0
-    right = len(s) - 1
-
-    while left < right:
-        if s[left] != s[right]:
-            return False
-        left += 1
-        right += 1
-
-    return True
-
-print(is_palindrome("racecar"))  # should return True
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

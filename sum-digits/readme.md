@@ -46,21 +46,3 @@ sum_digits(0)  # should return 0
 sum_digits(9)  # should return 9
 sum_digits(12345)  # should return 15 (because 1 + 2 + 3 + 4 + 5 = 15)
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `sum_digits` function:
-
-```python
-def sum_digits(num):
-    total = 0
-    while num > 0:
-        total += num % 10
-        num -= 1
-    return total
-
-# Test the function
-print(sum_digits(12345))  # Should return 15, but won't due to the bug
-```
-
-This implementation contains a bug that needs to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issue?

@@ -2,7 +2,7 @@
 
 ## Problem statement
 
-In programming, we often need to create visual patterns using text characters. One common shape is a right-angled triangle. This triangle is characterized by having one 90-degree angle, with the right angle positioned at the bottom-left corner when drawn with text characters. The challenge is to create a function that can draw such a triangle of any size, using a simple character like '*' to form the shape.
+In programming, we often need to create visual patterns using text characters. One common shape is a right-angled triangle. This triangle is characterized by having one 90-degree angle, with the right angle positioned at the bottom-left corner when drawn with text characters. The challenge is to create a function that can draw such a triangle of any size, using a simple character like '\*' to form the shape.
 
 ## 📋Function Specification
 
@@ -13,15 +13,15 @@ We're implementing a function called `draw_right_angled_triangle` to solve the p
 The function should:
 
 1. Accept a positive integer `n` as input
-2. Print a right-angled triangle made of '*' characters to the console
+2. Print a right-angled triangle made of '\*' characters to the console
 3. The triangle should have `n` rows
 4. Each row should be printed on a new line
 
 ### Rules
 
-- The first row should have one '*' character
-- Each subsequent row should have one more '*' than the previous row
-- The last row should have 'n' number of '*' characters
+- The first row should have one '\*' character
+- Each subsequent row should have one more '\*' than the previous row
+- The last row should have 'n' number of '\*' characters
 - The right angle of the triangle should be at the bottom-left corner
 - The function should work for any positive integer input
 
@@ -57,20 +57,3 @@ draw_right_angled_triangle(5)  # should print:
 draw_right_angled_triangle(1)  # should print:
 *
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `draw_right_angled_triangle` function:
-
-```python
-def draw_right_angled_triangle(n):
-    i = 0
-    while i < n:
-        print("#" * i)
-        i += 1
-
-# Test the function
-draw_right_angled_triangle(5)
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

@@ -51,20 +51,3 @@ calculate_percentage_change(100, 150)  # should return 50 (because it's a 50% in
 calculate_percentage_change(80, 100)  # should return 25 (because it's a 25% increase)
 calculate_percentage_change(75, 50)  # should return -33 (because it's a 33.33% decrease, rounded to 33)
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `calculate_percentage_change` function:
-
-```python
-def calculate_percentage_difference(original, new):
-    difference = abs(new - original)
-    average = (original - new) / 2
-    percentage_difference = (average / difference) * 100
-    return round(percentage_difference, 2)
-
-# Test the function
-print(calculate_percentage_difference(50, 40))  # should return -20 as there's been a 20% decrease from 50 to 40
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

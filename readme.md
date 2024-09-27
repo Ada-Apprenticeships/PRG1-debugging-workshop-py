@@ -2,7 +2,11 @@
 
 ## 🧰 Installation
 
-In this codespace, you should have the following applications installed:p
+In this codespace, you should have `python3` installed. Double check this by running the following command:
+
+```terminal
+   python3 --version
+```
 
 ## Background
 

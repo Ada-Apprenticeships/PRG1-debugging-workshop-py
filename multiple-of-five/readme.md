@@ -50,24 +50,3 @@ is_multiple_of_five(101)  # should return False
 is_multiple_of_five(-7)  # should return False
 is_multiple_of_five(3)  # should return False
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `is_multiple_of_five` function:
-
-```python
-def get_last_digit(num):
-    return num.toString()[num]
-
-def is_multiple_of_five(n):
-    print("The value of n -->", n)
-    if get_last_digit(n) == 5 or get_last_digit(n) == 0:
-        return True
-    else:
-        return False
-
-# Test the function
-print(is_multiple_of_five(25))  # Should return True, but will raise an error due to the bug
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

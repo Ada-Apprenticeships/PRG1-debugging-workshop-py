@@ -50,18 +50,3 @@ convert_from_pence_to_pounds(199)  # should return "£1.99"
 convert_from_pence_to_pounds(1)  # should return "£0.01"
 convert_from_pence_to_pounds(0)  # should return "£0.00"
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `convert_from_pence_to_pounds` function:
-
-```python
-def convert_from_pence_to_pounds(pence):
-    pounds = pence / 100
-    return f"£{round(pounds)}"  # Format to two decimal places
-
-# Test the function
-print(convert_from_pence_to_pounds(1299))  # should return "£12.99"
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

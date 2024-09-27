@@ -1,9 +1,9 @@
-def find_closing_parenthesis(s, open_pos):
-    if s[open_pos] != "(":
+def find_closing_parenthesis(s, n):
+    if s[n] != "(":
         return -1
 
     count = 0
-    i = open_pos
+    i = n
 
     while i < len(s):
         if s[i] == "(":

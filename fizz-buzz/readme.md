@@ -69,24 +69,3 @@ Fizz
 14
 FizzBuzz
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `fizz_buzz` function:
-
-```python
-def fizz_buzz(n):
-    for i in range(1, n + 1):
-        if i % 3 == 0:
-            print("Fizz")
-        elif i % 5 == 0:
-            print("Buzz")
-        elif i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
-        else:
-            print(i)
-
-fizz_buzz(15)  # not quite working...
-```
-
-This implementation contains bugs that need to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issues?

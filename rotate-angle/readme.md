@@ -51,20 +51,3 @@ rotate_angle_by_degrees(90, -100)  # should return 350
 rotate_angle_by_degrees(0, 720)  # should return 0
 rotate_angle_by_degrees(45, -405)  # should return 0
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `rotate_angle_by_degrees` function:
-
-```python
-def rotate_angle_by_degrees(initial_angle, rotation):
-    # Calculate the new angle
-    new_angle = initial_angle + (rotation % 360)
-
-    return new_angle
-
-# Test the function
-print(rotate_angle_by_degrees(350, 15))  # Should return 5, but won't due to the bug
-```
-
-This implementation contains a bug that needs to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issue?

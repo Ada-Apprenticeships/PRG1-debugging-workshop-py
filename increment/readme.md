@@ -39,21 +39,3 @@ increment(0)  # should return 1
 increment(99)  # should return 100
 increment(-1)  # should return 0
 ```
-
-## Buggy Implementation
-
-Here's a buggy implementation of the `increment` function:
-
-```python
-def increment(n):
-    return n++
-
-# Remember to check the expected behaviour of this program first
-# Then call the function to check how it is actually working...
-
-# Write some comments down below with your findings...
-```
-
-This implementation contains a bug that needs to be fixed. Try running it and compare the output with the expected behavior described above. Can you identify and fix the issue?
-
-Note: The `n++` syntax used in the buggy implementation is not valid in Python. This is intentional and part of the bug that needs to be fixed. Consider how you would correctly increment a number in Python.
