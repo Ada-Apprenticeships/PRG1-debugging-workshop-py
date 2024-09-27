@@ -2,10 +2,7 @@
 
 ## 🧰 Installation
 
-In this codespace, you should have the following applications installed:
-
-1. `node`. This is the JavaScript runtime we'll use to execute the JavaScript programs in this workshop. Check node is installed by running `node --version` in your terminal and check this command returns the current node version.
-1. `eslint` This is a static analysis tool for checking syntax and issues in your code. Check eslint is installed by running `eslint --version` in your terminal and check this command returns the current eslint version.
+In this codespace, you should have the following applications installed:p
 
 ## Background
 
@@ -43,7 +40,7 @@ Effective debugging involves several key steps:
 
 ### 🖨️ Printing to the console
 
-In most programming languages, we can print or log variables to check if they're being updated with the correct values during program execution. In JavaScript, for example, we can use `console.log` to log variables to the console, giving us a better idea of what's happening inside our program.
+In most programming languages, we can print or log variables to check if they're being updated with the correct values during program execution. In JavaScript, for example, we can use `print` to log variables to the console, giving us a better idea of what's happening inside our program.
 
 ### 👣 Step Through Execution
 
