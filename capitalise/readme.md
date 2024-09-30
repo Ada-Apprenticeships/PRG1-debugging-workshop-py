@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-You are tasked with implementing a function that modifies the capitalization of a given input string. The function should change the first character of the input string to uppercase while leaving the rest of the characters in their original case.
+You are tasked with implementing a function that modifies the capitalization of a given input string. The function should change the first character of the input string to uppercase while putting the rest of the string in lower case.
 
 ## Function Specification
 
@@ -13,9 +13,8 @@ We're implementing a function called `capitalise` to solve this problem statemen
 The function should:
 
 1. Accept a single string as input
-2. If the first character of the string is a letter:
-   - Capitalize this first character
-3. The remaining characters should be lowercase
+2. Capitalize this first character
+3. Put the **remaining characters in lower case**
 4. Return the transformed string
 
 ### Function Signature

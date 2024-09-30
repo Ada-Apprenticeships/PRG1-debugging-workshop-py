@@ -22,7 +22,7 @@ The function should:
 
 ### Rules
 
-- The function should work for any positive integer inputs for both parameters
+- The function should work for any positive integer input
 - Each line of the table should be printed on a new line
 - The table should start from 1 and go up to 12
 

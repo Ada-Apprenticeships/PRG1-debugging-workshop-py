@@ -1,4 +1,4 @@
-# find_closing_parenthesis
+# Find the closing parenthesis
 
 ## Problem statement
 
@@ -25,13 +25,13 @@ We're implementing a function called `find_closing_parenthesis` to solve this pr
 ### Function Signature
 
 ```python
-def find_closing_parenthesis(s: str, n: int) -> int:
+def find_closing_parenthesis(str: str, n: int) -> int:
 ```
 
 ### Parameters
 
-- `s` (str): The input string containing parentheses.
-- `n` (int): Which opening parenthesis to start at.
+- `str` (string): The input string containing parentheses.
+- `n` (number): An integer representing which opening parenthesis to match, counting from left to right. For example, n=1 means find the match for the first opening parenthesis, n=2 for the second, and so on.
 
 ### Return Value
 
@@ -41,18 +41,16 @@ def find_closing_parenthesis(s: str, n: int) -> int:
 ## Examples
 
 ```python
-find_closing_parenthesis('', 0)
-  # --> -1
+find_closing_parenthesis("(hello)", 1)
+# should return 6
+```
 
-find_closing_parenthesis('hello', 0)
-  # --> -1
+```python
+find_closing_parenthesis("Hello, (world). (Something Else).", 2)
+# should return 31
+```
 
-find_closing_parenthesis('(hello)', 0)
-  # --> 6
-
-find_closing_parenthesis('Hello, (world). (Something Else).', 7)
-  # --> 13
-
-find_closing_parenthesis('Hello, (world). (Something Else).', 2)
-  # --> 31
+```python
+find_closing_parenthesis("Hello, (world, (foo) bar (something) else), foo (bar) cat",3)
+# should return 35
 ```
