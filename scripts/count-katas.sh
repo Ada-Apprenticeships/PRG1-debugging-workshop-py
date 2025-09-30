@@ -1,1 +1,0 @@
-ls -d */ | grep -vE '^(node_modules|scripts)/' | wc
